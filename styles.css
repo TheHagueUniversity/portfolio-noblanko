@@ -1,0 +1,173 @@
+*{
+  box-sizing: box-sizing;
+}
+
+header {
+  background: #3EA89B;
+  color: #DBECFF;
+  font-family: 'PT Sans', sans-serif;
+}
+.link1{
+  border: none;
+  color: #DBECFF;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  position:fixed;
+}
+
+.link2{
+  border: none;
+  color: #DBECFF;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 40px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  position:fixed;
+}
+.link:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.link {
+  overflow: hidden;
+}
+.link h3 {
+  margin-top: 0;
+}
+
+
+
+/*Different and main*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #1F0C38;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #0F3747;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+h1, h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+
+
+
+/* About */
+header {
+  background: #008767;
+  color: #DBECFF;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* Education */
+
+.education {
+  background: #fff5e6;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 50% 100% ;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: left;
+  padding: 20px 0;
+}
+
+
+/*Work*/ 
+work-experience {
+  background:    #7975c3;
+  color: white;
+}
+
+
+/* Contact */
+footer {
+  background: #cae4b4;
+  color:  #140646;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+
+/* Projects page */
+
+.grid-container2 {
+  display: grid;
+  margin:30px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 200 200 200 200 ;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container3 {
+  display: grid;
+  margin:30px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 200  ;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.color {
+  background:#fff5e6;
+}
+
+.explanation {
+  font-family: 'PT Serif', serif;
+  font-size: 27px;
+
+
+}
